@@ -1,0 +1,100 @@
+  /*  estilo do form  */
+
+.rodape {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.titulo {
+    margin-top: 80px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.container {
+    margin-top: 80px;
+    margin-left: 80vh;
+    margin-right: 80vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    resize: none;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+body {
+    /* imagem de fundo */
+    background: url('imagens/PlayStation-Studios-900x503.jpg') center/cover no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+}
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffd700; 
+}
